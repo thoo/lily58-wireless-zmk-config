@@ -66,11 +66,11 @@
 
             display-name = "Lower";
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2     &bt BT_SEL 3          &bt BT_SEL 4                             &trans  &trans        &trans        &trans        &trans        &kp GRAVE
-&kp F1      &kp DOLLAR    &kp AMPERSAND  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                        &kp F7  &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
-&kp GRAVE   &kp AT_SIGN   &kp PLUS       &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp TILDE
-&trans      &kp PERCENT   &kp PIPE       &kp CARET        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &trans  &kp N9  &kp N5        &kp NUMBER_6  &kp N7        &kp N8        &kp PIPE
-                                         &trans           &trans                &trans                 &trans    &trans  &trans  &trans        &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2     &bt BT_SEL 3          &bt BT_SEL 4                             &kp F6     &kp F7        &kp F8        &kp F9        &kp F10       &kp GRAVE
+&kp F1      &kp DOLLAR    &kp AMPERSAND  &kp EXCLAMATION  &kp LEFT_BRACKET      &kp RIGHT_BRACKET                        &kp GRAVE  &kp SQT       &kp MINUS     &kp EQUAL     &trans        &kp NON_US_BACKSLASH
+&kp GRAVE   &kp AT_SIGN   &kp PLUS       &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS                    &kp N0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp TILDE
+&trans      &kp PERCENT   &kp PIPE       &kp CARET        &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans    &trans  &kp N9     &kp N5        &kp NUMBER_6  &kp N7        &kp N8        &kp PIPE
+                                         &trans           &trans                &trans                 &trans    &trans  &trans     &trans        &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
